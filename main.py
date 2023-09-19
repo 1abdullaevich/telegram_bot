@@ -2,7 +2,8 @@ import asyncio
 from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message
 from decouple import config
-bot = Bot(token=config('token'))
+
+bot = Bot(token=config('TOKEN'))
 dp = Dispatcher()
 
 
